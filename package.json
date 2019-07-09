@@ -1,0 +1,16 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "js through lite server",
+  "main": "yes",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run test",
+    "dev": "lite-server"
+  },
+  "author": "Niranjan Verma",
+  "license": "ISC"
+}

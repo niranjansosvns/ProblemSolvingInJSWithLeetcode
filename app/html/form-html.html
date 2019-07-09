@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <link rel="stylesheet" href="app/css/form-html.css">
+    <link rel="stylesheet" href="app/css/style.css">
+
+</head>
+<body>
+<!-- form details  -->
+      <form action="/my-handling-form-page" method="post" novalidate>
+      <fieldset>
+        <legend>
+          contact us
+        </legend>
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+      </div>
+      <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="email" name="user_mail">
+      </div>
+      <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      </fieldset>
+      <div class="button">
+      <button type="submit">Send your message</button>
+    </div> 
+    </form>
+      <div>
+        <label for="beans">How many beans can you eat?</label>
+      <input type="range" name="beans" id="beans" min="0" max="500" step="10">
+      <span class="beancount"></span>
+      </div>
+</body>
+</html>
